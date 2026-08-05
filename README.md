@@ -8,14 +8,14 @@ A comprehensive walkthrough writeup repository for key challenges from **D^3CTF 
 
 | Category | Challenge Name | Difficulty | Core Concept / Vulnerability | Walkthrough Link |
 | :--- | :--- | :---: | :--- | :--- |
-| 🌐 **Web** | **Scope Drift** | Medium | Double URL-decoding path normalization leading to Service Worker scope hijacking | [View Walkthrough](web/scope-drift.md) |
-| 🌐 **Web** | **Ghost Zero** | Hard | SQLite `sqlite_dbpage` recovery of deleted PCAP & ticket scope bypass | [View Walkthrough](web/ghost-zero.md) |
-| ⚔️ **Pwn** | **d3kbus** | Hard | Kernel zero-copy CRC32C linear system solving page cache overwrite (DirtyFrag) | [View Walkthrough](pwn/d3kbus.md) |
-| ⚔️ **Pwn** | **d3kheap2pro** | Hard | Kernel slab double-free with CPU Sheaf cache draining & `INIT_ON_ALLOC` cred zeroing | [View Walkthrough](pwn/d3kheap2pro.md) |
-| 🧩 **Misc** | **proxyport** | Easy | FRP reverse proxy TCP half-closed state machine FIN packet handling discrepancy | [View Walkthrough](misc/proxyport.md) |
-| 🔐 **Crypto** | **D3HFERP** | Hard | Overdetermined Multivariate Quadratic (MQ) system solved via Extended Linearization (XL) over $\mathbb{F}_3$ | [View Walkthrough](crypto/d3hferp.md) |
-| 🔄 **Reverse** | **PacMan** | Hard | iOS Mach-O binary with distributed Mach-messaging bytecode VM & RC4 decryption | [View Walkthrough](reverse/pacman.md) |
-| 🔄 **Reverse** | **d3llvm** | Hard | Android OLLVM-obfuscated library, 16-bit non-linear mixing network & AES-ECB decryption | [View Walkthrough](reverse/d3llvm.md) |
+| **Web** | **Scope Drift** | Medium | Double URL-decoding path normalization leading to Service Worker scope hijacking | [View Walkthrough](web/scope-drift.md) |
+| **Web** | **Ghost Zero** | Hard | SQLite `sqlite_dbpage` recovery of deleted PCAP & ticket scope bypass | [View Walkthrough](web/ghost-zero.md) |
+| **Pwn** | **d3kbus** | Hard | Kernel zero-copy CRC32C linear system solving page cache overwrite (DirtyFrag) | [View Walkthrough](pwn/d3kbus.md) |
+| **Pwn** | **d3kheap2pro** | Hard | Kernel slab double-free with CPU Sheaf cache draining & `INIT_ON_ALLOC` cred zeroing | [View Walkthrough](pwn/d3kheap2pro.md) |
+| **Misc** | **proxyport** | Easy | FRP reverse proxy TCP half-closed state machine FIN packet handling discrepancy | [View Walkthrough](misc/proxyport.md) |
+| **Crypto** | **D3HFERP** | Hard | Overdetermined Multivariate Quadratic (MQ) system solved via Extended Linearization (XL) over $\mathbb{F}_3$ | [View Walkthrough](crypto/d3hferp.md) |
+| **Reverse** | **PacMan** | Hard | iOS Mach-O binary with distributed Mach-messaging bytecode VM & RC4 decryption | [View Walkthrough](reverse/pacman.md) |
+| **Reverse** | **d3llvm** | Hard | Android OLLVM-obfuscated library, 16-bit non-linear mixing network & AES-ECB decryption | [View Walkthrough](reverse/d3llvm.md) |
 
 ---
 
