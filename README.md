@@ -1,14 +1,10 @@
-# D3CTF 2026 - Official Walkthrough Writeups
+# D^3CTF 2026 - Writeups
 
-[![CTF](https://img.shields.io/badge/CTF-D3CTF_2026-blue.svg)](https://d3c.tf/)
-[![Writeups](https://img.shields.io/badge/Writeups-8_Challenges-success.svg)](#challenge-index)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2026**, covering Web, Pwn, Misc, Cryptography, and Reverse Engineering.
+A comprehensive walkthrough writeup repository for key challenges from **D^3CTF 2026**, covering Web, Pwn, Misc, Cryptography, and Reverse Engineering.
 
 ---
 
-## 📌 Challenge Index
+## Challenge Index
 
 | Category | Challenge Name | Difficulty | Core Concept / Vulnerability | Walkthrough Link |
 | :--- | :--- | :---: | :--- | :--- |
@@ -23,7 +19,7 @@ A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2
 
 ---
 
-## 🏆 Summary of Captured Flags
+## Summary of Captured Flags
 
 | Challenge | Flag |
 | :--- | :--- |
