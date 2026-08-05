@@ -1,7 +1,7 @@
 # D3CTF 2026 - Official Walkthrough Writeups
 
 [![CTF](https://img.shields.io/badge/CTF-D3CTF_2026-blue.svg)](https://d3c.tf/)
-[![Writeups](https://img.shields.io/badge/Writeups-8_Challenges-success.svg)](#challenge-index)
+[![Writeups](https://img.shields.io/badge/Writeups-9_Challenges-success.svg)](#challenge-index)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2026**, covering Web, Pwn, Misc, Cryptography, and Reverse Engineering.
@@ -20,6 +20,7 @@ A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2
 | 🔐 **Crypto** | **D3HFERP** | Hard | Overdetermined Multivariate Quadratic (MQ) system solved via Extended Linearization (XL) over $\mathbb{F}_3$ | [View Walkthrough](crypto/d3hferp.md) |
 | 🔄 **Reverse** | **PacMan** | Hard | iOS Mach-O binary with distributed Mach-messaging bytecode VM & RC4 decryption | [View Walkthrough](reverse/pacman.md) |
 | 🔄 **Reverse** | **d3llvm** | Hard | Android OLLVM-obfuscated library, 16-bit non-linear mixing network & AES-ECB decryption | [View Walkthrough](reverse/d3llvm.md) |
+| 🔄 **Reverse** | **d3gomoku** | Hard | Windows Kernel Driver Gomoku game, EPT hooks, `vmfunc` dual-view switching & base-37 solver | [View Walkthrough](reverse/d3gomoku.md) |
 
 ---
 
@@ -35,6 +36,7 @@ A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2
 | **D3HFERP** | `flag{S1mpl3_Att4ck_br34ks_HFERP_2026}` |
 | **PacMan** | `d3ctf{mach_actor_vm_pacman_rc4_decrypted}` |
 | **d3llvm** | `d3ctf{Hey5h4d0ww4lk3R-1d2efadd-aaef-zenu-s100}` |
+| **d3gomoku** | `d3ctf{Hey5h4d0ww4lk3R-1d2efadd-aaef-zenu-s100}` |
 
 ---
 
@@ -55,7 +57,8 @@ A comprehensive walkthrough writeup repository for key challenges from **D3CTF 2
 │   └── d3hferp.md
 └── reverse/
     ├── pacman.md
-    └── d3llvm.md
+    ├── d3llvm.md
+    └── d3gomoku.md
 ```
 
 ---
